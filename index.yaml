@@ -15,7 +15,7 @@ entries:
     name: metricbeat
     sources:
     - https://github.com/weaveworks/flux
-    urls: []
-    # - https://jnbnyc.github.io/helm-charts/metricbeat-0.1.0-1.tgz
+    urls:
+    - https://github.com/jnbnyc/helm-charts/releases/download/0.1.0-1/metricbeat-0.1.0-1.tar.gz
     version: 0.1.0-1
 generated: 2018-07-25
