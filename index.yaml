@@ -3,10 +3,9 @@ entries:
   metricbeat:
   - apiVersion: v1
     appVersion: 6.3.2
-    created: 2018-07-25
+    created: 2018-07-26T04:20:01.4961833Z
     description: A Helm chart to collect Kubernetes metrics with metricbeat
-    digest: 0304214d26518e8411013f764b43fbb471344e89dc95a5867510d7b847620a4e
-    engine: gotpl
+    digest: 9e534e5455ded37f1b94ff7ba3d0d582cbf9ec7eb881cfe870b3c9cbb9e5e987
     home: https://www.elastic.co/products/beats/metricbeat
     icon: https://www.elastic.co/assets/blt6263e629ff423e0d/icon-metricbeat-bb.svg
     maintainers:
@@ -14,8 +13,8 @@ entries:
       name: jnbnyc
     name: metricbeat
     sources:
-    - https://github.com/weaveworks/flux
+    - https://www.elastic.co/guide/en/beats/metricbeat/current/index.html
     urls:
     - https://github.com/jnbnyc/helm-charts/releases/download/0.1.0-1/metricbeat-0.1.0-1.tar.gz
     version: 0.1.0-1
-generated: 2018-07-25
+generated: 2018-07-26T04:20:01.4937423Z
