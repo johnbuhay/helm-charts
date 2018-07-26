@@ -1,0 +1,12 @@
+apiVersion: v1
+appVersion: 6.3.2
+description: A Helm chart to collect Kubernetes metrics with metricbeat
+home: https://www.elastic.co/products/beats/metricbeat
+icon: https://www.elastic.co/assets/blt6263e629ff423e0d/icon-metricbeat-bb.svg
+maintainers:
+- email: jnbuhaynyc@gmail.com
+  name: jnbnyc
+name: metricbeat
+sources:
+- https://www.elastic.co/guide/en/beats/metricbeat/current/index.html
+version: 0.1.0
