@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: List
+metadata:
+  name: {{ include "generic.fullname" . }}
+items:
+{{- range .Values.list }}
+- {{- range $k, $v := . }}
+  {{ $k }}: {{ toJson $v }}
+{{- end }}
+{{- end }}
